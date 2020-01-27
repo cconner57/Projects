@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    
+}
+
+.container {
+	margin: 20% 25%;
+	text-align: center;
+	border-radius: 15px;
+    border: 1px black solid;
+    background-color: #2979ff;
+}
+
+.title {
+    padding: 5%;
+    border-radius: 15px 15px 0px 0px;
+    border-bottom: 1px solid black;
+    background-color: #90caf9 ;
+}
+
+.display {
+    border-bottom: 1px solid black;
+}
+
+.number {
+    padding: 15px;
+	margin: 15px 40%;
+    border-radius: 5px;
+    border: 1px black solid;
+    background-color: white;
+}
+
+.buttons {
+    padding: 15px;
+    background-color: #90caf9;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.increase {
+    padding: 2%;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #b9f6ca;
+}
+
+.reset {
+    padding: 2%;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #ffd180;
+}
+
+.decrease {
+    padding: 2%;
+    border-radius: 5px;
+    background-color: #ff9e80;
+    border: 1px solid black;
+}
