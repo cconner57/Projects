@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.title {
+    border-bottom: 1px solid black;
+    width: 50%; 
+    margin: 5% auto;
+}
