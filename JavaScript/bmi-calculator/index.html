@@ -10,27 +10,23 @@
     <body>
         <div class="container">
             <h4 class="title">Enter BMI</h4>
-            <form action="" class="">
+            <form action="" name="BMI">
                 <div class="height">
-                    <span>Enter Height:</span>
-                    <input type="text" name="feet" placeholder="Enter Feet">
-                    <input type="text" name="inches" placeholder="Enter Inches">
+                    <span>Height:</span>
+                    <input type="number" name="inches" placeholder="Enter Inches">
                 </div>
-                <div>
-                    <span> Enter Weight:</span>
-                    <input type="number" name="weight" placeholder="Enter Weight">
+                <div class="weight">
+                    <span>Weight:</span>
+                    <input type="number" name="weight" placeholder="Enter Weight"  min="100" max="400">
                 </div>
-                <div>
-                    <span>Enter Sex:</span>
-                    <input type="radio" name="sex" value="female">Female
-                    <input type="radio" name="sex" value="male">Male  
-                </div>
-                <div>
-                    <span>Enter Age:</span>
-                    <input type="number" name="age" placeholder="Enter Age">
-                </div>
-                <input type="button" value="Submit">
+                <input class="submit" type="button" value="Submit">
             </form>
+            <div>
+                <p class="results"></p>
+            </div>
+        </div>
+        <div class="chart">
+            <img src="BMI-Chart.jpg" alt="BMI Chart">
         </div>
         <script src="index.js"></script>
     </body>
