@@ -5,13 +5,13 @@ document.querySelector('.enter').addEventListener('keyup', (e) => {
 });
 
 function getPokemon() {
-	let searchPokemon = document.querySelector('input').value;
-	let pokemon = searchPokemon.toLowerCase();
+	const searchPokemon = document.querySelector('input').value;
+	const pokemon = searchPokemon.toLowerCase();
 
 	fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`)
 		.then((response) => response.json())
 		.then((data) => {
-			let source = document.querySelector('img');
+			const source = document.querySelector('img');
 			source.src = `${data.sprites['front_default']}`;
 		})
 		.catch((error) => {
