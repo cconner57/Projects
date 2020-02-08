@@ -18,7 +18,7 @@
 
 .team-container {
 	display: flex;
-	padding: 10px 0px;
+	padding: 10px 250px;
 	justify-content: space-evenly;
 }
 
@@ -26,18 +26,24 @@
 	padding: 5px;
 	border-radius: 15px;
 	border: 1px solid lightblue;
-	background-color: rgb(0,100,255);
+	background-color: rgb(0, 100, 255);
 }
 
 .column {
-
 }
 
 .category {
 	margin: 5px 5px 20px;
 	padding: 45px 50px;
 	border-radius: 15px;
-	background: radial-gradient(circle, rgb(0,0,255) 20%, rgb(0,50,255) 40%, rgb(0,100,255) 60%, rgb(0,150,255) 80%, rgb(0,200,255) 100%);
+	background: radial-gradient(
+		circle,
+		rgb(0, 0, 255) 20%,
+		rgb(0, 50, 255) 40%,
+		rgb(0, 100, 255) 60%,
+		rgb(0, 150, 255) 80%,
+		rgb(0, 200, 255) 100%
+	);
 }
 
 .block {
@@ -52,15 +58,21 @@
 	align-items: center;
 	justify-content: center;
 	border: 1px solid lightblue;
-	background: radial-gradient(circle, rgb(0,0,255) 20%, rgb(0,50,255) 40%, rgb(0,100,255) 60%, rgb(0,150,255) 80%, rgb(0,200,255) 100%);
+	background: radial-gradient(
+		circle,
+		rgb(0, 0, 255) 20%,
+		rgb(0, 50, 255) 40%,
+		rgb(0, 100, 255) 60%,
+		rgb(0, 150, 255) 80%,
+		rgb(0, 200, 255) 100%
+	);
 }
 
 h1 {
-	padding: 10px;
+	padding: 5px;
 }
 
 .block h5 {
-
 	height: 10px;
 	flex: 1 1 40px;
 }
@@ -71,4 +83,16 @@ h5 {
 
 .question {
 	display: none;
+}
+
+.fade-out {
+	animation: fadeOut ease 8s;
+}
+@keyframes fadeOut {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
 }
